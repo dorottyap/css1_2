@@ -20,28 +20,33 @@ h1 {
     margin-bottom: 10px;
 }
 
-h2 {
-    font-size: 24px;
-    font-weight: normal;
+h2, blockquote {
+    font-size: 20px;
+    font-weight: lighter;
     line-height: 1;
+    text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: right;
+    color: #9b9b9b;
 }
 
 
 
 li {
    margin-bottom: .5em;
+   line-height: 1.43;
+   letter-spacing: normal;
+   color: #4a4a4a;
+   font-weight: bold;
+   font-size: 14px;
 }
 
 ul, ol {
    padding-left: 2em;
+
 }
 
-blockquote {
-   font-size: 1.5em;
-   font-weight: bold;
-}
 
 pre {
    background: #eee;
